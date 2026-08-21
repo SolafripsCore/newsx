@@ -1,0 +1,18 @@
+# Environment / credentials - never commit these
+.env
+.env.*
+!.env.example
+
+# Runtime data
+writable/cache/*
+!writable/cache/index.html
+writable/logs/*.log
+writable/session/ci_session*
+writable/debugbar/*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
